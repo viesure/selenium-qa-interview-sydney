@@ -16,8 +16,8 @@ The API will return the following fields: `city`, `condition`, `icon`, `descript
 * The **city field** would give a fixed city name as a string
 * The **conditionID field** gives an ID of the current condition
 
-  | ID   | Value   |
-      | ---- | ------  |
+  | ID   | Value   |    
+  | ---- | ------  |
   | 1    | clear   |
   | 2    | windy   |
   | 3    | mist    |
