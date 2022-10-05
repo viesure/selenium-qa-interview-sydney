@@ -1,0 +1,11 @@
+{
+  "city"        : "Vienna",
+  "condition"   : "clear",
+  "icon"        : "clear.PNG",
+  "conditionId" : 1,
+  "description" : "The weather is mild",
+  "weather": {
+    "tempInFahrenheit" : 60,
+    "tempInCelsius"    : 15
+  }
+}
