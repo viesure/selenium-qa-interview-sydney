@@ -1,4 +1,4 @@
-package definitions;
+package step.definitions;
 
 import io.cucumber.java.After;
 import org.openqa.selenium.chrome.ChromeDriver;
