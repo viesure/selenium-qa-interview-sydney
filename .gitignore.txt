@@ -1,0 +1,2 @@
+weatherapptest/target/
+weatherapptest/.idea/
