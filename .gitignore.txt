@@ -1,2 +1,1 @@
 waetherapptest/target/
-waetherapptest/.idea/
