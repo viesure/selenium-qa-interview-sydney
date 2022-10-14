@@ -1,6 +1,6 @@
-package api;
+package util;
 
-import api.model.APIResponse;
+import model.APIResponse;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 import io.restassured.response.Response;
@@ -18,7 +18,7 @@ public class Utils {
 
     }
 
-    public static APIResponse ResponseToObject(Response response){
+    public static APIResponse responseToObject(Response response){
         Gson gson = new Gson();
         String responseString = response.asString();
         System.out.println(responseString);

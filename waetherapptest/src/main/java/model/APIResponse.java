@@ -1,14 +1,13 @@
-package api.model;
+package model;
 
 public class APIResponse  {
     private String city;
     private String condition;
     private String icon;
     private String description;
-    private weather weather;
+    private Weather weather;
 
     public APIResponse() {
-
     }
 
     public String getCity() {
@@ -43,11 +42,11 @@ public class APIResponse  {
         this.description = description;
     }
 
-    public api.model.weather getWeather() {
+    public Weather getWeather() {
         return weather;
     }
 
-    public void setWeather(api.model.weather weather) {
+    public void setWeather(Weather weather) {
         this.weather = weather;
     }
 }

@@ -1,7 +1,7 @@
 package api.stepdefs;
 
-import api.APICalls;
-import api.model.APIResponse;
+import util.APICalls;
+import model.APIResponse;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;

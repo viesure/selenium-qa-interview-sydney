@@ -1,10 +1,10 @@
-package api.model;
+package model;
 
-public class weather {
+public class Weather {
     private int tempInFahrenheit;
     private int tempInCelsius;
 
-    public weather() {
+    public Weather() {
     }
 
     public int getTempInCelsius() {
